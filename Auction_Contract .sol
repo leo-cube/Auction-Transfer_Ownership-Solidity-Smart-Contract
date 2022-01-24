@@ -45,7 +45,7 @@ contract SimpleAuction{
 		emit HighestBidIncrease(msg.sender, msg.value);		// Just a logging to the ethereum blockchain about the data.
 	}
 
-*/ 
+/* 
 
 ## THIS NOTE IS IMPORTANT FOR THE FUNCTION "withdraw(){}" TO UNDERSTAND BETTER:
 
@@ -68,7 +68,7 @@ return true;					// if the above (! blah blah) condition is true then the return
 						// to the account that bid was low and willing to get back its ether.
 
 
-/*
+*/
 
 
 	function withdraw() public returns(bool){
